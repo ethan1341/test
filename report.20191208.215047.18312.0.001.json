@@ -1,0 +1,499 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20191208.215047.18312.0.001.json",
+    "dumpEventTime": "2019-12-08T21:50:47Z",
+    "dumpEventTimeStamp": "1575859847629",
+    "processId": 18312,
+    "cwd": "C:\\Users\\ethan\\Documents\\dev\\fomo-suite\\fomo_trader",
+    "commandLine": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2018.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\js-language-service.js",
+      "-id=1575850738899"
+    ],
+    "nodejsVersion": "v13.3.0",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "13.3.0",
+      "v8": "7.9.317.25-node.23",
+      "uv": "1.33.1",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "79",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.1",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "headersUrl": "https://nodejs.org/download/release/v13.3.0/node-v13.3.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v13.3.0/node-v13.3.0.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v13.3.0/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.18362",
+    "osVersion": "Windows 10 Pro",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "AMD Ryzen 7 2700 Eight-Core Processor          ",
+        "speed": 3194,
+        "user": 769453,
+        "nice": 0,
+        "sys": 893296,
+        "idle": 7772531,
+        "irq": 94921
+      },
+      {
+        "model": "AMD Ryzen 7 2700 Eight-Core Processor          ",
+        "speed": 3194,
+        "user": 1109203,
+        "nice": 0,
+        "sys": 712125,
+        "idle": 7613953,
+        "irq": 12375
+      },
+      {
+        "model": "AMD Ryzen 7 2700 Eight-Core Processor          ",
+        "speed": 3194,
+        "user": 1227890,
+        "nice": 0,
+        "sys": 880656,
+        "idle": 7326734,
+        "irq": 10187
+      },
+      {
+        "model": "AMD Ryzen 7 2700 Eight-Core Processor          ",
+        "speed": 3194,
+        "user": 1036890,
+        "nice": 0,
+        "sys": 595078,
+        "idle": 7803156,
+        "irq": 5921
+      },
+      {
+        "model": "AMD Ryzen 7 2700 Eight-Core Processor          ",
+        "speed": 3194,
+        "user": 710531,
+        "nice": 0,
+        "sys": 389296,
+        "idle": 8335296,
+        "irq": 4234
+      },
+      {
+        "model": "AMD Ryzen 7 2700 Eight-Core Processor          ",
+        "speed": 3194,
+        "user": 673375,
+        "nice": 0,
+        "sys": 293125,
+        "idle": 8468625,
+        "irq": 2375
+      },
+      {
+        "model": "AMD Ryzen 7 2700 Eight-Core Processor          ",
+        "speed": 3194,
+        "user": 434000,
+        "nice": 0,
+        "sys": 178921,
+        "idle": 8822203,
+        "irq": 1546
+      },
+      {
+        "model": "AMD Ryzen 7 2700 Eight-Core Processor          ",
+        "speed": 3194,
+        "user": 404484,
+        "nice": 0,
+        "sys": 175968,
+        "idle": 8854671,
+        "irq": 1890
+      },
+      {
+        "model": "AMD Ryzen 7 2700 Eight-Core Processor          ",
+        "speed": 3194,
+        "user": 157078,
+        "nice": 0,
+        "sys": 75734,
+        "idle": 9202312,
+        "irq": 890
+      },
+      {
+        "model": "AMD Ryzen 7 2700 Eight-Core Processor          ",
+        "speed": 3194,
+        "user": 132140,
+        "nice": 0,
+        "sys": 44953,
+        "idle": 9258015,
+        "irq": 500
+      },
+      {
+        "model": "AMD Ryzen 7 2700 Eight-Core Processor          ",
+        "speed": 3194,
+        "user": 100953,
+        "nice": 0,
+        "sys": 37843,
+        "idle": 9296312,
+        "irq": 281
+      },
+      {
+        "model": "AMD Ryzen 7 2700 Eight-Core Processor          ",
+        "speed": 3194,
+        "user": 77921,
+        "nice": 0,
+        "sys": 23000,
+        "idle": 9334187,
+        "irq": 234
+      },
+      {
+        "model": "AMD Ryzen 7 2700 Eight-Core Processor          ",
+        "speed": 3194,
+        "user": 57156,
+        "nice": 0,
+        "sys": 22375,
+        "idle": 9355578,
+        "irq": 359
+      },
+      {
+        "model": "AMD Ryzen 7 2700 Eight-Core Processor          ",
+        "speed": 3194,
+        "user": 45468,
+        "nice": 0,
+        "sys": 18046,
+        "idle": 9371593,
+        "irq": 125
+      },
+      {
+        "model": "AMD Ryzen 7 2700 Eight-Core Processor          ",
+        "speed": 3194,
+        "user": 37796,
+        "nice": 0,
+        "sys": 14125,
+        "idle": 9383203,
+        "irq": 609
+      },
+      {
+        "model": "AMD Ryzen 7 2700 Eight-Core Processor          ",
+        "speed": 3194,
+        "user": 31718,
+        "nice": 0,
+        "sys": 16140,
+        "idle": 9387265,
+        "irq": 3062
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "Ethernet",
+        "internal": false,
+        "mac": "0c:9d:92:0e:36:34",
+        "address": "2601:4a:8401:6e0::718e",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Ethernet",
+        "internal": false,
+        "mac": "0c:9d:92:0e:36:34",
+        "address": "2601:4a:8401:6e0:9593:4505:ba5:8754",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Ethernet",
+        "internal": false,
+        "mac": "0c:9d:92:0e:36:34",
+        "address": "2601:4a:8401:6e0:d0e5:97b:5a40:d5e8",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Ethernet",
+        "internal": false,
+        "mac": "0c:9d:92:0e:36:34",
+        "address": "fe80::9593:4505:ba5:8754",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 7
+      },
+      {
+        "name": "Ethernet",
+        "internal": false,
+        "mac": "0c:9d:92:0e:36:34",
+        "address": "10.0.0.117",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "DESKTOP-I2AG22V"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff687691509",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+10857"
+    },
+    {
+      "pc": "0x00007ff68769587c",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+28124"
+    },
+    {
+      "pc": "0x00007ff687694838",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+23960"
+    },
+    {
+      "pc": "0x00007ff68778cc8b",
+      "symbol": "v8::base::CPU::has_sse+39435"
+    },
+    {
+      "pc": "0x00007ff687fb44ae",
+      "symbol": "v8::Isolate::ReportExternalAllocationLimitReached+94"
+    },
+    {
+      "pc": "0x00007ff687f9bc01",
+      "symbol": "v8::SharedArrayBuffer::Externalize+785"
+    },
+    {
+      "pc": "0x00007ff687e62f5c",
+      "symbol": "v8::internal::Heap::EphemeronKeyWriteBarrierFromCode+1436"
+    },
+    {
+      "pc": "0x00007ff687e6e250",
+      "symbol": "v8::internal::Heap::ProtectUnprotectedMemoryChunks+1312"
+    },
+    {
+      "pc": "0x00007ff687e6ad7f",
+      "symbol": "v8::internal::Heap::PageFlagsAreConsistent+3151"
+    },
+    {
+      "pc": "0x00007ff687e604d3",
+      "symbol": "v8::internal::Heap::CollectGarbage+1283"
+    },
+    {
+      "pc": "0x00007ff687e5ec64",
+      "symbol": "v8::internal::Heap::AllocateExternalBackingStore+1300"
+    },
+    {
+      "pc": "0x00007ff687e80c54",
+      "symbol": "v8::internal::Factory::NewFillerObject+196"
+    },
+    {
+      "pc": "0x00007ff687bdb0df",
+      "symbol": "v8::internal::interpreter::JumpTableTargetOffsets::iterator::operator=+1311"
+    },
+    {
+      "pc": "0x00007ff6883fae3d",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+517453"
+    },
+    {
+      "pc": "0x000002d4e0993af0",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2165198848,
+    "totalCommittedMemory": 2165198848,
+    "usedMemory": 2147779152,
+    "availableMemory": 46442832,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 33040,
+        "used": 33040,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 12582912,
+        "committedMemory": 12582912,
+        "capacity": 6284544,
+        "used": 1214680,
+        "available": 5069864
+      },
+      "old_space": {
+        "memorySize": 2124025856,
+        "committedMemory": 2124025856,
+        "capacity": 2121237984,
+        "used": 2118766008,
+        "available": 2471976
+      },
+      "code_space": {
+        "memorySize": 1740800,
+        "committedMemory": 1740800,
+        "capacity": 1556640,
+        "used": 1556640,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 790528,
+        "committedMemory": 790528,
+        "capacity": 574480,
+        "used": 574480,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 25747456,
+        "committedMemory": 25747456,
+        "capacity": 25631520,
+        "used": 25631520,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 2784,
+        "used": 2784,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 6284544,
+        "used": 0,
+        "available": 6284544
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 241.062,
+    "kernelCpuSeconds": 59.015,
+    "cpuConsumptionPercent": 3.29465,
+    "maxRss": 2235191296,
+    "pageFaults": {
+      "IORequired": 1968242,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 27323,
+      "writes": 12740
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "=::": "::\\",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "ANDROID_HOME": "C:\\Users\\ethan\\AppData\\Local\\Android\\Sdk",
+    "APPDATA": "C:\\Users\\ethan\\AppData\\Roaming",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "DESKTOP-I2AG22V",
+    "ComSpec": "C:\\WINDOWS\\system32\\cmd.exe",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "FPS_BROWSER_APP_PROFILE_STRING": "Internet Explorer",
+    "FPS_BROWSER_USER_PROFILE_STRING": "Default",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\ethan",
+    "JAVA_HOME": "C:\\Program Files\\Java\\jdk1.8.0_231",
+    "LOCALAPPDATA": "C:\\Users\\ethan\\AppData\\Local",
+    "LOGONSERVER": "\\\\DESKTOP-I2AG22V",
+    "NUMBER_OF_PROCESSORS": "16",
+    "OneDrive": "C:\\Users\\ethan\\OneDrive",
+    "OS": "Windows_NT",
+    "Path": "C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\nodejs\\;C:\\Program Files\\PuTTY\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;%SystemRoot%\\system32;%SystemRoot%;%SystemRoot%\\System32\\Wbem;%SYSTEMROOT%\\System32\\WindowsPowerShell\\v1.0\\;%SYSTEMROOT%\\System32\\OpenSSH\\;C:\\Users\\ethan\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\ethan\\AppData\\Roaming\\npm;C:\\Program Files (x86)\\Python27\\;C:\\Users\\ethan\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;c:\\Users\\ethan\\AppData\\Local\\Android\\Sdk\\platform-tools;",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "AMD64 Family 23 Model 8 Stepping 2, AuthenticAMD",
+    "PROCESSOR_LEVEL": "23",
+    "PROCESSOR_REVISION": "0802",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PSModulePath": "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PUBLIC": "C:\\Users\\Public",
+    "PYTHON": "C:\\Program Files (x86)\\Python27\\",
+    "SESSIONNAME": "Console",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\WINDOWS",
+    "TEMP": "C:\\Users\\ethan\\AppData\\Local\\Temp",
+    "TMP": "C:\\Users\\ethan\\AppData\\Local\\Temp",
+    "USERDOMAIN": "DESKTOP-I2AG22V",
+    "USERDOMAIN_ROAMINGPROFILE": "DESKTOP-I2AG22V",
+    "USERNAME": "ethan",
+    "USERPROFILE": "C:\\Users\\ethan",
+    "windir": "C:\\WINDOWS"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "C:\\WINDOWS\\System32\\WS2_32.dll",
+    "C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "C:\\WINDOWS\\System32\\msvcrt.dll",
+    "C:\\WINDOWS\\System32\\sechost.dll",
+    "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "C:\\WINDOWS\\System32\\USER32.dll",
+    "C:\\WINDOWS\\System32\\win32u.dll",
+    "C:\\WINDOWS\\System32\\profapi.dll",
+    "C:\\WINDOWS\\System32\\GDI32.dll",
+    "C:\\WINDOWS\\System32\\gdi32full.dll",
+    "C:\\WINDOWS\\System32\\msvcp_win.dll",
+    "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\System32\\MSASN1.dll",
+    "C:\\WINDOWS\\System32\\bcrypt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\SYSTEM32\\winmmbase.dll",
+    "C:\\WINDOWS\\System32\\cfgmgr32.dll",
+    "C:\\WINDOWS\\System32\\bcryptPrimitives.dll",
+    "C:\\WINDOWS\\System32\\IMM32.DLL",
+    "C:\\WINDOWS\\System32\\powrprof.dll",
+    "C:\\WINDOWS\\System32\\UMPDC.dll",
+    "C:\\WINDOWS\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\WINDOWS\\system32\\uxtheme.dll",
+    "C:\\WINDOWS\\System32\\combase.dll",
+    "C:\\WINDOWS\\system32\\mswsock.dll",
+    "C:\\WINDOWS\\System32\\kernel.appcore.dll",
+    "C:\\WINDOWS\\System32\\NSI.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\DNSAPI.dll",
+    "C:\\WINDOWS\\system32\\napinsp.dll",
+    "C:\\WINDOWS\\system32\\pnrpnsp.dll",
+    "C:\\WINDOWS\\System32\\winrnr.dll",
+    "C:\\WINDOWS\\system32\\NLAapi.dll",
+    "C:\\WINDOWS\\system32\\wshbth.dll"
+  ]
+}
